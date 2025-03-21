@@ -65,4 +65,4 @@ print('Coefficients:', regressor.coef_)
 # mean squared error
 print('Mean squared error: %.2f' % np.mean((regressor.predict(X_test)- y_test) ** 2))
 # Explained variance score: 1 is a perfect prediction
-print('Variance score: %.2f'
+print('Variance score: %.2f')
